@@ -1,2 +1,2 @@
-# q4_agentic_ai_classworking
-Learning, Working and Practice of Agentic AI Class
+# Q4_AgenticAI_ClassWorking
+Learning, Working and Practice of Agentic AI ClassWork
