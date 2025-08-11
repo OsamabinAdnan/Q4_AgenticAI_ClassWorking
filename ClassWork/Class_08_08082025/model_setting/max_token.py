@@ -33,19 +33,19 @@ print("-" * 30)
 agent_100 = Agent(
         name="max_tokens100",
         instructions="You are a helpful assistant.",
-        model_settings=ModelSettings(max_tokens=100),
+        model_settings=ModelSettings(max_tokens=100, temperature=0.8),
         model=model
 )
 agent_500 = Agent(
         name="max_tokens500",
         instructions="You are a helpful assistant.",
-        model_settings=ModelSettings(max_tokens=500),
+        model_settings=ModelSettings(max_tokens=500, temperature=0.8),
         model=model
 )
 agent_1000 = Agent(
     name="max_tokens1000",
     instructions="You are a helpful assistant.",
-    model_settings=ModelSettings(max_tokens=1000),
+    model_settings=ModelSettings(max_tokens=1000, temperature=0.8),
     model=model
 )
 async def main():
